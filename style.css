@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(to left, green,rgb(0, 255, 76),rgb(55, 255, 0));
+    background-size: 300% 100%;
+    animation: image 3s infinite alternate;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(247, 244, 240);
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(59, 240, 119);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.367);
+    border-radius: 10px 0;
+    cursor: pointer;
+}
+@keyframes image {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+    
+}
